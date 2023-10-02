@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:blanchedalmond;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.high-priority{
+    background-color: rgb(186, 7, 7);
+    color: white;
+}
+
+.medium-priority{
+    background-color: rgb(230, 230, 47);
+}
+
+.low-priority{
+    background-color: rgb(176, 175, 175);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(0, 93, 200);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(167, 223, 223);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+li button{
+    background-color: rgb(35, 202, 29);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li button:hover{
+    background-color: rgb(209, 244, 213);
+}
+
+.checked{
+    background-color: rgb(162, 239, 161);
+    color: black;
+    text-decoration: line-through;
+}
