@@ -34,6 +34,7 @@ function addTask(){
     }
     taskList.append(li);
     taskInput.value = "";
+}
 
 function removeTask(button){
     li = button.parentElement;
