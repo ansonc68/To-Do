@@ -34,18 +34,6 @@ function addTask(){
     }
     taskList.append(li);
     taskInput.value = "";
-    
-    li.addEventListener("click", function(){
-        li.classList.toggle("checked");
-        if (li.classList.contains("checked")){
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 },
-            });
-        }
-    });
-}
 
 function removeTask(button){
     li = button.parentElement;
