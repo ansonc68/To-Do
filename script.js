@@ -34,6 +34,10 @@ function addTask(){
     }
     taskList.append(li);
     taskInput.value = "";
+
+    li.addEventListener("click", function(){
+        li.classList.toggle("checked");
+    });
 }
 
 function removeTask(button){
